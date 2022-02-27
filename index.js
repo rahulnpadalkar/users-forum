@@ -8,6 +8,8 @@ app.use(
     watchPg: true,
     graphiql: true,
     enhanceGraphiql: true,
+    jwtPgTypeIdentifier: "usersforumpublic.jwt",
+    jwtSecret: "9be9ebfac8ad4bd1b4808b548d0f6c72",
   })
 );
 
